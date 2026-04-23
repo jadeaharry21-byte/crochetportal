@@ -127,3 +127,9 @@ button:hover {
 .nav-btn:active {
     transform: scale(0.95);
 }
+/* Active page button */
+.nav-btn.active {
+    background: white;
+    color: #ff69b4;
+    border: 2px solid #ff69b4;
+}
