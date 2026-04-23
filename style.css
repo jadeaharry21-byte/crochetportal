@@ -99,37 +99,33 @@ button:hover {
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 15px;
-    background-color: #ffb6c1;
+    gap: 25px; /* THIS creates space between buttons */
+    padding: 20px;
+    background-color: transparent; /* remove pink bar */
 }
 
-/* Button style */
+/* Individual buttons (now separate boxes) */
 .nav-btn {
-    background: linear-gradient(145deg, #ff69b4, #ff85c1);
+    background-color: #ff85c1;
     color: white;
-    padding: 10px 20px;
-    border-radius: 25px;
+    padding: 12px 25px;
+    border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     transition: all 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-/* Hover effect */
+/* Hover */
 .nav-btn:hover {
-    background: linear-gradient(145deg, #ff1493, #ff69b4);
+    background-color: #ff69b4;
     transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
-/* Click effect */
-.nav-btn:active {
-    transform: scale(0.95);
-}
-/* Active page button */
+/* Active page */
 .nav-btn.active {
-    background: white;
+    background-color: white;
     color: #ff69b4;
     border: 2px solid #ff69b4;
 }
