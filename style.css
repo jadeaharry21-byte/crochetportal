@@ -1,4 +1,34 @@
-/* Reset default spacing */
+/* Reset default spacing */<style>
+        body {
+            font-family: Garamond;
+            background-color: #fff8f2;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background-color: #f99fc9ff;
+            padding: 20px;
+            color: black;
+        }
+        .project {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #f99fc9ff;
+            padding: 10px;
+            margin-top: 20px;
+            color: black;
+        }
+    </style>
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
