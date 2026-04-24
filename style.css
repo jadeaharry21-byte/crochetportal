@@ -134,4 +134,8 @@ button:hover {
 .nav-btn {
     background-color: #ff85c1 !important;
     color: white !important;
+
+}
+.nav-btn {
+    border: 2px solid red;
 }
