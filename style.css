@@ -131,3 +131,7 @@ button:hover {
     color: #ff69b4;
     border: 2px solid #ff69b4;
 }
+.nav-btn {
+    background-color: #ff85c1 !important;
+    color: white !important;
+}
